@@ -4,4 +4,8 @@ on:
     types: [opened]
   permissions:
     pull-requests: write
+  jobs:
+    welcome:
+      name: My first job named welcome
+      runs-on: ubuntu-latest
   
