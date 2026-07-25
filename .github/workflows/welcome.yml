@@ -1,0 +1,7 @@
+name: First action that post a welcome comment
+on:
+  pull_request:
+    types: [opened]
+  permissions:
+    pull_requests: write
+  
